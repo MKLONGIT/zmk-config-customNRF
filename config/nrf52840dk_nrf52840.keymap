@@ -15,28 +15,28 @@
       wakeup-source;
       diode-direction = "col2row";
       col-gpios
-          = <&nrf52840_m2 14 GPIO_ACTIVE_HIGH>
-          , <&nrf52840_m2 13 GPIO_ACTIVE_HIGH>
-          , <&nrf52840_m2 12 GPIO_ACTIVE_HIGH>
-          , <&nrf52840_m2 11 GPIO_ACTIVE_HIGH>
-          , <&nrf52840_m2 10 GPIO_ACTIVE_HIGH>
-          , <&nrf52840_m2 9 GPIO_ACTIVE_HIGH>
-          , <&nrf52840_m2 8 GPIO_ACTIVE_HIGH>
-          , <&nrf52840_m2 7 GPIO_ACTIVE_HIGH>
-          , <&nrf52840_m2 38 GPIO_ACTIVE_HIGH>
-          , <&nrf52840_m2 37 GPIO_ACTIVE_HIGH>
-          , <&nrf52840_m2 39 GPIO_ACTIVE_HIGH>
-          , <&nrf52840_m2 6 GPIO_ACTIVE_HIGH>
-          , <&nrf52840_m2 5 GPIO_ACTIVE_HIGH>
-          , <&nrf52840_m2 4 GPIO_ACTIVE_HIGH>
-          , <&nrf52840_m2 3 GPIO_ACTIVE_HIGH>
+          = <&nrf52840dk_nrf52840 14 GPIO_ACTIVE_HIGH>
+          , <&nrf52840dk_nrf52840 13 GPIO_ACTIVE_HIGH>
+          , <&nrf52840dk_nrf52840 12 GPIO_ACTIVE_HIGH>
+          , <&nrf52840dk_nrf52840 11 GPIO_ACTIVE_HIGH>
+          , <&nrf52840dk_nrf52840 10 GPIO_ACTIVE_HIGH>
+          , <&nrf52840dk_nrf52840 9 GPIO_ACTIVE_HIGH>
+          , <&nrf52840dk_nrf52840 8 GPIO_ACTIVE_HIGH>
+          , <&nrf52840dk_nrf52840 7 GPIO_ACTIVE_HIGH>
+          , <&nrf52840dk_nrf52840 38 GPIO_ACTIVE_HIGH>
+          , <&nrf52840dk_nrf52840 37 GPIO_ACTIVE_HIGH>
+          , <&nrf52840dk_nrf52840 39 GPIO_ACTIVE_HIGH>
+          , <&nrf52840dk_nrf52840 6 GPIO_ACTIVE_HIGH>
+          , <&nrf52840dk_nrf52840 5 GPIO_ACTIVE_HIGH>
+          , <&nrf52840dk_nrf52840 4 GPIO_ACTIVE_HIGH>
+          , <&nrf52840dk_nrf52840 3 GPIO_ACTIVE_HIGH>
           ;
       row-gpios
-          = <&nrf52840_m2 45 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-          , <&nrf52840_m2 44 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-          , <&nrf52840_m2 43 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-          , <&nrf52840_m2 42 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-          , <&nrf52840_m2 41 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+          = <&nrf52840dk_nrf52840 45 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+          , <&nrf52840dk_nrf52840 44 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+          , <&nrf52840dk_nrf52840 43 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+          , <&nrf52840dk_nrf52840 42 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+          , <&nrf52840dk_nrf52840 41 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
           ;
   };
 
