@@ -4,7 +4,6 @@
 #include "nrf52840_partition.dtsi"
 #include "nrfNicht_nrf52840-pinctrl.dtsi"
 #include <zephyr/dt-bindings/input/input-event-codes.h>
-#include <zephyr/dt-bindings/regulator/nrf5x.h>
 #include <dt-bindings/led/led.h>
 
 / {
@@ -100,7 +99,7 @@
 };
 
 &reg1 {
-	regulator-initial-mode = <NRF5X_REG_MODE_DCDC>;
+	regulator-initial-mode = <1>; // according to file on zephyr GH
 };
 
 &adc {
